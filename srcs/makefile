@@ -1,6 +1,6 @@
 CC		= cc
 CFLAGS 	= -Wall -Wextra -Werror -Ilibft
-SRCS	= env_handler.c excution.c
+SRCS	= env_handler.c excution.c exce_builtins_1.c exce_utils_1.c exce_builtins_2.c
 OBJS	= $(SRCS:.c=.o)
 NAME	= minishell
 
